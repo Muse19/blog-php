@@ -329,3 +329,11 @@ input[type="submit"],
 .form-dark .modal-header {
     border-bottom: none;
 }
+
+/*YO*/
+.card-image{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
