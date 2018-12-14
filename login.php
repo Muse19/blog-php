@@ -2,7 +2,6 @@
 
 require_once 'includes/conexion.php';
 
-
 if (isset($_POST)) {
 
 	if (isset($_SESSION['error_login'])) {
@@ -31,4 +30,7 @@ if (isset($_POST)) {
 	}
 }
 
-header('Location: index.php');
+
+echo "Login";
+//header('Location: index.php');
+?>
