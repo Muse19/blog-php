@@ -15,7 +15,8 @@
           </button>
         </div>
         <!--Body-->
-        <div class="modal-body">
+        <form id="formulario" action="login.php">
+          <div class="modal-body">
           <!--Body-->
           <div class="md-form mb-5">
             <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
@@ -23,8 +24,8 @@
           </div>
 
           <div class="md-form pb-3">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
             <input type="password" id="Form-pass5" class="form-control validate white-text">  
+            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
           </div>
 
           <!--Grid row-->
@@ -32,7 +33,7 @@
 
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Sign up</button>
+              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Sign up</button>
             </div>
             <!--Grid column-->
 
@@ -51,6 +52,7 @@
 
           </div>
           <!--Grid row-->
+        </form>
 
         </div>
       </div>
